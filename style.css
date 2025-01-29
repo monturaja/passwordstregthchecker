@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "Afacad Flux", serif;
+}
+
+body{
+    text-align: center;
+background: url(https://images.unsplash.com/photo-1614181081801-f241632a4d49?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.container{
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10 20px #bebebe;
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+text-align: left;    
+}
+
+label{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input{
+    width: 95%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    box-shadow:inset 5px 5px 10px #bebebe;
+    outline: none;
+} 
+
+::placeholder{
+    font-size: 20px;
+    font-style: normal;
+}
+
+#submitbtn{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 8px 12px;
+    border: none;
+   font-size: 20px;
+   border-radius: 10px;
+   background-color: #e0e0e0; 
+   box-shadow: 5px 5px 10px #bebebe;
+}
+
+.password-container{
+    position: relative;
+}
+
+.toggle-password{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #6fa3fe;
+}
+
+ul.criteria{
+    padding: 10px;
+    color: black;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #666;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5 );
+    margin-top: 10px;
+} 
+
+ul.criteria li{
+    margin: 8px 0;
+}
+
+ul.criteria li.valid{
+    color: #4caf50;
+}
+
+ul.criteria li.invalid{
+    color: #f44336;
+}
